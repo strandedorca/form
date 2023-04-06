@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Dancing+Script&display=swap');
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+:root {
+
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-family: 'Cardo', sans-serif;
+    font-weight: 300;
+}
+
+.float {
+    float: left;
+}
+
+img {
+    height: 100vh;
+}
